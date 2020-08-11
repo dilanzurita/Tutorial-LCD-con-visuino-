@@ -227,3 +227,10 @@ Para esto se ha usado la herramienta TinkerCad, y el circuito realizado se lo pr
 ### 11.Bibliografía
 Tutoriales Electronica, Kit electronica (2015), recopilado de:https://www.kitelectronica.com/2015/06/visuino-entorno-grafico-para-programar.html#:~:text=Visuino%20es%20un%20ambiente%20de,c%C3%B3digo%20para%20grabarlo%20en%20Arduino.
 
+Introducción a las LCD, 5Hertz electronica, recopilado de:https://www.5hertz.com/index.php?route=tutoriales/tutorial&tutorial_id=9
+
+Informacion LCD, electronicos CALDAS, recopilado de: https://www.electronicoscaldas.com/es/displays-lcd-alfanumericos-y-graficos/131-display-lcd-16x2-el-1602a.html
+
+Cómo funcionan las pantallas LCD de 16 x 2 Construir una pantalla LCD básica de 16 x 2 caracteres, electronicsforu (2020), recopilado de: https://www.electronicsforu.com/resources/learn-electronics/16x2-lcd-pinout-diagram
+
+
