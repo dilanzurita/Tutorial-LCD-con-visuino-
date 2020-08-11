@@ -222,7 +222,7 @@ Con estos resultados podemos determinar que la herramienta de Visuino es de gran
 Como un aporte a este proyecto, se ha diseñado el circuito sobr el cual se necesita correr el programa que se ha trabajado.
 Para esto se ha usado la herramienta TinkerCad, y el circuito realizado se lo presenta a continuación.
 
-[](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/circuito.PNG)
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/circuito.PNG)
 
 ### 11.Bibliografía
-Tutoriales Electronica, Kit electronica (2015), recopilado de:[](https://www.kitelectronica.com/2015/06/visuino-entorno-grafico-para-programar.html#:~:text=Visuino%20es%20un%20ambiente%20de,c%C3%B3digo%20para%20grabarlo%20en%20Arduino.)
+Tutoriales Electronica, Kit electronica (2015), recopilado de:[link 1](https://www.kitelectronica.com/2015/06/visuino-entorno-grafico-para-programar.html#:~:text=Visuino%20es%20un%20ambiente%20de,c%C3%B3digo%20para%20grabarlo%20en%20Arduino.)
