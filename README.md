@@ -247,17 +247,20 @@ Una vez presionado el botón Visuino se encargara de generar el código fuente e
  
 Con los pasos descritos se podrá generar código mediante visuino para diferentes proyectos que ya quedan a libertad del programador.
 
-### 9.	Conclusiones 
+### 9.Conclusiones 
 Después del respectivo proceso antes realizado, podemos concluir que si se pudo generar codigo de programacion a traves de la herramienta de Visuino el cual nos ayudo a controlar nuestro LCD, además que nos facilito el programar sobre el.
 Con estos resultados podemos determinar que la herramienta de Visuino es de gran ayuda debido a la ventaja en cara al ahorro de tiempo que representa al momento de programar, lo cual nos indica que le podemos sacar mayor provecho si se la estudia y trabaja a fondo.
 
-### 10.Aportaciones
+### 10.Recomendaciones 
+Para un correcto funcionamiento se recomienda verificar que todas las librerias que ocupa visuino se encuentren instaladas, como adicional también se recomienda verificar el codigo fuente dentro del IDE Arduino para comprobar que no existan errores para que nos permita compilar y cargar en nuestra placa Arduino.
+
+### 11.Aportaciones
 Como un aporte a este proyecto, se ha diseñado el circuito sobr el cual se necesita correr el programa que se ha trabajado.
 Para esto se ha usado la herramienta TinkerCad, y el circuito realizado se lo presenta a continuación.
 
 ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/circuito.PNG)
 
-### 11.Bibliografía
+### 12.Bibliografía
 Tutoriales Electronica, Kit electronica (2015), recopilado de:https://www.kitelectronica.com/2015/06/visuino-entorno-grafico-para-programar.html#:~:text=Visuino%20es%20un%20ambiente%20de,c%C3%B3digo%20para%20grabarlo%20en%20Arduino.
 
 Introducción a las LCD, 5Hertz electronica, recopilado de:https://www.5hertz.com/index.php?route=tutoriales/tutorial&tutorial_id=9
