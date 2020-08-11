@@ -101,6 +101,7 @@ Mencionandolos de izquierda a derecha y de arriba hacia abajo tenemos los siguie
 27.	Digital
 
 Barra de Visualizacion y propiedades
+
 ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/22.PNG)
 
 En este apartado podemos observar una barra en la que vemos nuestro proyecto como vista preliminar.
@@ -249,8 +250,13 @@ Una vez que tenemos claro el orden que se maneja en un LCD procedemos a ingresar
 Una vez presionado el botón Visuino se encargara de generar el código fuente en la aplicación de Arduino.
 
 ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/20.png)
- 
+
+Una vez que se haya verificado y compilado el codigo de manera exitosa, podemos cargarlo en nuestra placa Arduino, como se muestra en la siguiente imagen.
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/23.PNG)
+
 Con los pasos descritos se podrá generar código mediante visuino para diferentes proyectos que ya quedan a libertad del programador.
+
 
 ### 9.Conclusiones 
 Después del respectivo proceso antes realizado, podemos concluir que si se pudo generar codigo de programacion a traves de la herramienta de Visuino el cual nos ayudo a controlar nuestro LCD, además que nos facilito el programar sobre el.
