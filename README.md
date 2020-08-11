@@ -1,12 +1,12 @@
 # Universidad de las Fuerzas Armadas ESPE
-## Arquitectura de Computadoras
-### Trabajo Extra 
+# Arquitectura de Computadoras
+## Trabajo Extra 
 
 Dilan  Zurita 
 
-Tutorial para programación Arduino mediante Visuino, para controlar un LCD
+## Tutorial para programación Arduino mediante Visuino, para controlar un LCD
 
-1.	Planteamiento del problema 
+1.	**Planteamiento del problema** 
 Se desea lograr programar en la placa Arduino mediante la herramienta llamada Visuino con el fin de poder controlar un LCD a nuestro antojo 
 2.	Objetivos 
 •	General:
