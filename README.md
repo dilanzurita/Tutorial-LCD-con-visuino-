@@ -100,6 +100,11 @@ Mencionandolos de izquierda a derecha y de arriba hacia abajo tenemos los siguie
 26.	Datos de tiempo
 27.	Digital
 
+Barra de Visualizacion y propiedades
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/22.PNG)
+
+En este apartado podemos observar una barra en la que vemos nuestro proyecto como vista preliminar.
+Y una pqueña cajonera de propiedades en las culae podemos modificar nuestros datos, en este caso de texto en nuestro LCD
 **¿Qué es un LCD?**
 
 Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
