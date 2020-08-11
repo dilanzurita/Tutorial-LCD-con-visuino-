@@ -67,6 +67,39 @@ En esta barra si seguimos el orden de izquierda a derecha, tenemos propiedades c
 12.	Cargar a la placa Arduino directamente 
 13.	Cambio de tema Claro/Oscuro 
 
+Visuino al ser una herramienta enfocada en la programación visual, nos proporciona todos los elementos que normalmente necesitaríamos físicamente para poder realizar nuestros diferentes proyectos, y los agrupa de la siguiente manera 
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/21.png)
+
+Mencionandolos de izquierda a derecha y de arriba hacia abajo tenemos los siguientes grupos:
+1.	Matemática 
+2.	Medición 
+3.	Memoria 
+4.	Motores
+5.	Generadores 
+6.	Entrada/Salida
+7.	Enteros
+8.	Salidas
+9.	Peguino (bloques 3d adicionales en Visuino)
+10.	Cuaterno
+11.	Controles remotos 
+12.	Colores
+13.	Comunicación 
+14.	Complejo
+15.	Conversor 
+16.	Análogo
+17.	Astronomía 
+18.	Audio 
+19.	Binario 
+20.	Monitores o displays (dentro de este grupo encontramos el LCD)
+21.	Filtros
+22.	Flip Flops
+23.	Puertas
+24.	Sumideros de datos 
+25.	Fuentes de datos 
+26.	Datos de tiempo
+27.	Digital
+
 **¿Qué es un LCD?**
 
 Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
