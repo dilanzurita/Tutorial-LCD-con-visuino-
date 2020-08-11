@@ -22,6 +22,7 @@ Lograr general código de programación a través de Visuino, el cual nos permit
 
 **¿Qué es visuino?** 
  
+ ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/tree/master/Img) 
 
 Visuino es un ambiente de programación basado en la tecnología Open Wire, en donde todo es conectado por una serie de diagramas y pines, así consigues tener un diseño de tu circuito electrónico con su correspondiente código para grabarlo en Arduino.
 
