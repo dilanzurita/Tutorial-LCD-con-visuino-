@@ -2,51 +2,41 @@
 # Arquitectura de Computadoras
 ## Trabajo Extra 
 
-Dilan  Zurita 
+### Dilan  Zurita 
 
-## Tutorial para programación Arduino mediante Visuino, para controlar un LCD
+# Tutorial para programación Arduino mediante Visuino, para controlar un LCD
 
-1.	**Planteamiento del problema** 
+### 1.Planteamiento del problema 
 Se desea lograr programar en la placa Arduino mediante la herramienta llamada Visuino con el fin de poder controlar un LCD a nuestro antojo 
-2.	Objetivos 
-•	General:
+### 2.	Objetivos 
+•	**General:**
 Lograr general código de programación a través de Visuino, el cual nos permita controlar nuestra placa Arduino conectada a un LCD 
 
-•	Específicos 
+•	**Específicos** 
 1.	Lograr que el código se llegue a compilar en la aplicación oficial de Arduino 
 2.	Identificar el funcionamiento de la herramienta Visuino 
 3.	Analizar las ventajas que posee programar en Visuino 
 
 
-3.	Estado del Arte 
-Quién?	Cuando?	Qué?	Donde?
-Divya Dhatri PVS; M. Pachiyannan ; Jyothi Swaroopa Rani K ; G Pravallika	2019	En este documento se presenta un sistema de riego automático basado en Arduino de bajo costo que utiliza un sensor de humedad del suelo en el que el sensor de humedad del suelo proporciona su salida dependiendo de las condiciones del suelo y más tarde, con la ayuda de Arduino, funciona.
-Un sensor de humedad del suelo es el componente principal de este sistema que se utiliza para medir las condiciones del suelo, como si el suelo está seco o húmedo. Para mostrar las condiciones del suelo, la pantalla LCD de 16 × 2 es la mejor opción para mostrar.	India 
-V. Kiruthika Priya ; V. Vimaladevi ; B. pandimeenal ; T. Dhivya	2017	La idea básica de este proyecto es crear una máquina de votación electrónica que ayudará a erradicar el defraudamiento de los sistemas de votación manual y las versiones anteriores de la votación electrónica. La tesis analiza y propone un sistema que incluye múltiples capas de verificaciones para garantizar la fiabilidad del dispositivo.
-El voto final se muestra en una pantalla LCD para satisfacción de los votantes.	India 
-Polina D. Lapshina ; Sofya P. Kurilova ; Anton A. Belitsky	2019	Este proyecto trata sobre la calidad del aire que afecta la salud humana y la energía. Los altos niveles de dióxido de carbono en el aire pueden causar graves dolencias en el cuerpo humano. Debido a la mayor atención a este problema, es necesario desarrollar dispositivos de control de calidad del aire. Se supone que el proyecto construirá un prototipo del dispositivo para monitorear el contenido de dióxido de carbono en el aire interior.
-El principio de funcionamiento del dispositivo es que muestra los datos (nivel de CO2, temperatura y humedad en interiores) de los sensores en la pantalla LCD con una frecuencia de cinco minutos.	Rusia 
+### 4.	Marco Teórico 
 
-En lo que respecta a este proyecto, podemos ver una gama de ejemplos los cuales sacan provecho de la programación en Arduino acompañada de un LCD controlado por el mismo, lo cual nos demuestra la utilidad que se tiene con estos dispositivos, en este caso en particular se aprenderá la base para manipular un LCD con fines didácticos que nos ayuden a entrenar la habilidad de programación mediante Visuino para más adelante poder crear proyectos con una utilidad agradable.
-
-4.	Marco Teórico 
-
-¿Qué es visuino? 
+**¿Qué es visuino?** 
  
 
 Visuino es un ambiente de programación basado en la tecnología Open Wire, en donde todo es conectado por una serie de diagramas y pines, así consigues tener un diseño de tu circuito electrónico con su correspondiente código para grabarlo en Arduino.
 
 En pocas palabras: haces  un circuito electrónico con los componentes disponibles en Visuino (displays, leds, botones, etc) y entonces Visuino te crea el código para que el circuito te funcione, con tu placa de Arduino.
 
-Ventajas 
+**Ventajas** 
 Visuino incorpora bastantes cosas positivas como la preselección de la placa Arduino con la que desarrollaremos, la selección de componentes que cargaremos y la creación del programa según diagramas lo que nos permite ir más rápidos con la creación de nuestros programas.
 Algunos versiones de Visuino también nos permite editar el código fuente directamente desde la herramienta, como también posee una consola en la cual se puede simular lo que hemos creado.
-Desventajas
+
+**Desventajas**
 Esto está muy bien, pero Visuino aún no llega al IDE oficial de Arduino. Por un lado Visuino sólo está disponible para Windows, frente las otras plataformas para las que el IDE de Arduino si que está. 
 
 Además Visuino (full) es de pago, algo que no ocurre con el IDE de Arduino. La empresa que ha creado Visuino se llama Mitov Software, una empresa que si bien apoya al proyecto Arduino, no es una empresa oficial por lo que a la hora de programar no es lo mismo que el IDE de Arduino que si es oficial.
 
-Entorno de Visuino y componentes 
+**Entorno de Visuino y componentes** 
 Visuino al ser un entorno de programación grafica cuenta con grandes propiedades para que al usuario le sea posible llevar a cabo sus proyectos. Su entorno luce de la siguiente manera, con la peculiaridad de darnos una placa Arduino precargada cada vez que ejecutemos la aplicación.
  
 
@@ -70,16 +60,17 @@ En esta barra si seguimos el orden de izquierda a derecha, tenemos propiedades c
 12.	Cargar a la placa Arduino directamente 
 13.	Cambio de tema Claro/Oscuro 
 
-¿Qué es un LCD?
+**¿Qué es un LCD?**
+
 Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
  
 	
 
-Características de un LCD
+**Características de un LCD**
 
 En este caso, usaremos un LCD 16x2 por lo cual se mencionaran características generales de un LCD y especificas de un 16x2.
 
-Generales: 
+**Generales:** 
 -	Tamaño:
 El tamaño de un panel LCD generalmente se mide a lo lardo de su diagonal, expresado generalmente en pulgadas. Sin embargo existen más características que pueden describir las dimensiones aproximadas, como por ejemplo la LCD 16×2 (negro sobre fondo azul) se refiere a que tiene la capacidad de tener al mismo tiempo 16 caracteres de manera horizontal en dos renglones (cada uno).
 -	Resolución:
@@ -97,7 +88,7 @@ Es la relación entre la intensidad más brillante y la más oscura.
 Es el ángulo máximo en el que el usuario puede visualizar lo que está en la LCD sin que se pierda mucha calidad.
 
 
-Específicas: 
+**Específicas:** 
 -	16 caracteres x 2 líneas
 -	Caracteres de 5x8 puntos
 -	Tamaño de caracter: 5.23 x 3 mm
@@ -108,10 +99,10 @@ Específicas:
 -	Posee controlador KS0066U o equivalente on-board (compatible Hitachi HD44780)
 -	Voltaje de alimentación: 5 V
 
-Pines del LCD 16x2
+**Pines del LCD 16x2**
  
 
-5.	Diagramas 
+### 5.	Diagramas 
 
 En el siguiente diagrama se puede apreciar como se ha realizado la conexión del Arduino con el LCD en la herramienta de Visuino.
  
@@ -119,20 +110,20 @@ En el siguiente diagrama se puede apreciar como se ha realizado la conexión del
 -	Razón de las conexiones 
 En el presente diagrama se ha usado los pines 1,2,4,5,6,7
 
-Pines 1 y 2 
+**Pines 1 y 2** 
 En este caso los pines del Arduino son conectados con los dos de los pines mas importantes para el funcionamiento del LCD, los cuales son:
-Pin RS: Selección de Registro.
+**Pin RS: Selección de Registro.**
 0 lógico: Registro de comandos (escritura),
 1 lógico: Registro de datos (escritura, lectura)
-Pin Enable: El famoso Enable de casi todos los componentes de la electrónica digital. Un 1 lógico señala el inicio de escritura o lectura del LCD, un 0 lógico, desactiva todas las funciones.
-Por otro lado tenemos el Pin R/W el cual no se ha tomado en cuenta ya que queremos que nuestro LCD nos sirva como formato de escritura.
-Pin  R/W: Escritura y Lectura 
+**Pin Enable:** El famoso Enable de casi todos los componentes de la electrónica digital. Un 1 lógico señala el inicio de escritura o lectura del LCD, un 0 lógico, desactiva todas las funciones.
+Por otro lado tenemos el **Pin R/W** el cual no se ha tomado en cuenta ya que queremos que nuestro LCD nos sirva como formato de escritura.
+**Pin  R/W:** Escritura y Lectura 
 0 lógico: Escritura del LCD.
 1 Lógico: Lectura del LCD.   
 
-Pin 4,5,6,7: Son pines simples, de entrada de datos, se ordenan del más significativo al menos significativo.
+**Pin 4,5,6,7:** Son pines simples, de entrada de datos, se ordenan del más significativo al menos significativo.
 
-6.	Lista de Componentes 
+### 6.	Lista de Componentes 
 
 Para poder realizar este proyecto se necesitan los siguientes componentes:
 
@@ -140,11 +131,11 @@ Para poder realizar este proyecto se necesitan los siguientes componentes:
 •	Instalar Visuino 
 •	Montaje del circuito para probar el programa (arduino, LCD 16x2, cables, capacitor, protoboard), en caso de no tener los instrumentos físicos se puede simular el circuito en Tinkercad o en un programa de su agrado.
 
-7.	Descripción de prerrequisitos 
+### 7.	Descripción de prerrequisitos 
 Antes de comenzar con cualquier procedimiento debemos tener en cuenta estos dos prerrequisitos:
 •	Trabajar sobre Windows, ya que visuino solo está disponible para este sistema operativo
 •	Instalar la librería “OneWire” ya que visuino trabaja con esta librería 
-8.	Tutorial
+### 8.	Tutorial
 
 Para poder controlar nuestro LCD mediante Arduino hay que generar un programa el cual lo vamos a construir por medio de visuino, y para esto necesitamos seguir los siguientes pasos:
 1.	Se debe instalar Visuino, y lo haremos desde la pagina https://www.visuino.com/ , donde descargaremos esta versión.
