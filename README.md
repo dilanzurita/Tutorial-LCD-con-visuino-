@@ -39,12 +39,17 @@ Esto está muy bien, pero Visuino aún no llega al IDE oficial de Arduino. Por u
 Además Visuino (full) es de pago, algo que no ocurre con el IDE de Arduino. La empresa que ha creado Visuino se llama Mitov Software, una empresa que si bien apoya al proyecto Arduino, no es una empresa oficial por lo que a la hora de programar no es lo mismo que el IDE de Arduino que si es oficial.
 
 **Entorno de Visuino y componentes** 
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/2.png)
+
 Visuino al ser un entorno de programación grafica cuenta con grandes propiedades para que al usuario le sea posible llevar a cabo sus proyectos. Su entorno luce de la siguiente manera, con la peculiaridad de darnos una placa Arduino precargada cada vez que ejecutemos la aplicación.
  
 
 Sus diferentes componenetes y las características que nos ofrece serán explicadas a continuación:
 
 -	En su parte superior contamos con una barra peculiar de herramientas.
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/3.png)
  
 
 En esta barra si seguimos el orden de izquierda a derecha, tenemos propiedades con las cuales podemos:
@@ -66,7 +71,7 @@ En esta barra si seguimos el orden de izquierda a derecha, tenemos propiedades c
 
 Las siglas LCD significan “Liquid Cristal Display” ó pantalla de cristal líquido. Es una pantalla plana basada en el uso de una sustancia liquida atrapada entre dos placas de vidrio, haciendo pasar por este una corriente eléctrica a una zona especifica, para que así esta se vuelva opaca, y además cuenta (generalmente) con iluminación trasera.
  
-	
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/4.jpg)	
 
 **Características de un LCD**
 
@@ -103,11 +108,13 @@ Es el ángulo máximo en el que el usuario puede visualizar lo que está en la L
 
 **Pines del LCD 16x2**
  
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/5.png)
 
 ### 5.	Diagramas 
 
 En el siguiente diagrama se puede apreciar como se ha realizado la conexión del Arduino con el LCD en la herramienta de Visuino.
  
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/6.png)
 
 -	Razón de las conexiones 
 En el presente diagrama se ha usado los pines 1,2,4,5,6,7
@@ -146,53 +153,65 @@ Para poder controlar nuestro LCD mediante Arduino hay que generar un programa el
 -	Placa Arduino
 Arduino Uno vine precargado por defecto en la herramienta de Visuino, sin embargo se podría cambiar a diferentes versiones de Arduino dando click derecho sobre el nombre arduino uno donde se nos deplegara las opciones, en este caso lo dejamos en Arduino Uno
  
+ ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/7.png)
 
 -	LCD de 16x2
 Este componente lo podemos encontrar en el grupo de displays en la parte derecho superior de Visuino.
- 
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/8.png)
 
 Dentro de esta categoría vamos a encontrar el LCD 16x2
  
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/9.png)
 
 3.	Una vez seleccionados los componentes vamos a tener a disposición sus entradas y salidas, con el fin de conectarlas según queramos que se interprete las funciones del LCD mediante el Arduino, entonces se presentaran los componentes de esta manera.
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/10.png)
  
 Con lo cual ya podemos trabajar y vamos a proceder a hacer las conexiones correspondientes.
 -	Register Select
 Esta pin del LCD lo vamos a conectar al pin Digital número 1 de Arduino ya que este solo necesita valores de 1 o 0 para registrar datos y comandos o solo datos respectivamente.
 
- 
+ ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/11.png)
 
 -	Enable 
 El pin enable se lo conectara al pin 2 digital del Arduino ya que de igual manera solo necesita de un 1 o 0 para operar.
  
-
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/12.png)
 -	Data pins 
 Los data pins que vamos a usar son los 4,5,6,7 los cuales son los 4 bits menos significativos, y los conectamos a los pines del mismo orden (4,5,6,7) en la placa arduino.
  
+ ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/13.png)
 
 4.	Una vez que la conexión de nuestros componentes este realizada, vamos a ingresar los datos que queremos que se representen en la pantalla del LCD, para esto nos vamos a dar doble click en el nombre del componente donde se nos desplegara esta pantalla.
    
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/14.png)
 
 En esta pantalla vamos a elegir la opción de text field dándole doble click, y de la misma manera vamos a generar otra, dando como resultado lo siguiente.
+
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/15.png)
  
 5.	Una vez que hayamos creado nuestros apartados para ingresar los datos, tenemos que tener en cuenta el orden que maneja un LCD, representado en el siguiente grafico.
  
+ ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/16.jpg)
 
 Una vez que tenemos claro el orden que se maneja en un LCD procedemos a ingresar el mensaje que queremos ver el nuestro LCD con su respectiva ubicación 
 -	Text Field 1 
  
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/17.PNG)
 
 -	Text field 2 
  
+ ![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/18.PNG)
 
 6.	Una vez que culminanos con el ingreso y ubicación de datos, ya estamos listos para poder generar el código, y para esto vamos a darle click en la parte superior de Visuino, en el icono de Arduino.
  
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/19.png)
 
 Una vez presionado el botón Visuino se encargara de generar el código fuente en la aplicación de Arduino.
 
-
+![](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/20.png)
  
-
 Con los pasos descritos se podrá generar código mediante visuino para diferentes proyectos que ya quedan a libertad del programador.
 
 9.	Conclusiones 
