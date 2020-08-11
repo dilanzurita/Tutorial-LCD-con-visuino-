@@ -10,7 +10,7 @@
 Se desea lograr programar en la placa Arduino mediante la herramienta llamada Visuino con el fin de poder controlar un LCD a nuestro antojo 
 ### 2.	Objetivos 
 •	**General:**
-Lograr general código de programación a través de Visuino, el cual nos permita controlar nuestra placa Arduino conectada a un LCD 
+Lograr generar código de programación a través de Visuino, el cual nos permita controlar nuestra placa Arduino conectada a un LCD 
 
 •	**Específicos** 
 1.	Lograr que el código se llegue a compilar en la aplicación oficial de Arduino 
@@ -214,4 +214,15 @@ Una vez presionado el botón Visuino se encargara de generar el código fuente e
  
 Con los pasos descritos se podrá generar código mediante visuino para diferentes proyectos que ya quedan a libertad del programador.
 
-9.	Conclusiones 
+### 9.	Conclusiones 
+Después del respectivo proceso antes realizado, podemos concluir que si se pudo generar codigo de programacion a traves de la herramienta de Visuino el cual nos ayudo a controlar nuestro LCD, además que nos facilito el programar sobre el.
+Con estos resultados podemos determinar que la herramienta de Visuino es de gran ayuda debido a la ventaja en cara al ahorro de tiempo que representa al momento de programar, lo cual nos indica que le podemos sacar mayor provecho si se la estudia y trabaja a fondo.
+
+### 10.Aportaciones
+Como un aporte a este proyecto, se ha diseñado el circuito sobr el cual se necesita correr el programa que se ha trabajado.
+Para esto se ha usado la herramienta TinkerCad, y el circuito realizado se lo presenta a continuación.
+
+[](https://github.com/dilanzurita/Tutorial-LCD-con-visuino-/blob/master/Img/circuito.PNG)
+
+### 11.Bibliografía
+Tutoriales Electronica, Kit electronica (2015), recopilado de:[](https://www.kitelectronica.com/2015/06/visuino-entorno-grafico-para-programar.html#:~:text=Visuino%20es%20un%20ambiente%20de,c%C3%B3digo%20para%20grabarlo%20en%20Arduino.)
